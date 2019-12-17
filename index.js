@@ -1,11 +1,11 @@
 function dwarfRollCall(dwarves) {
-  var newDwarfArray = "" ;
+  var newDwarfString = "" ;
   for ( var i = 0; i < dwarves.length; i++) {
   var position = i + 1;
   var dwarf = dwarves[i];
   newDwarfArray += `${position}. ${dwarf} `;  
   }
-return newDwarfArray;
+return newDwarString;
   }
 
 function summonCaptainPlanet(planeteerCalls) {
