@@ -43,3 +43,12 @@ for ( var i = 0; i < foods.length; i++) {
   }
     return "no cheese!";
 }
+
+function wordsWithB(words) {
+  var wordsArray = [];
+  for ( var i = 0; i < words.length; i++) {
+    if (words[i].startsWith("b"))
+  }
+
+  
+}
