@@ -3,9 +3,9 @@ function dwarfRollCall(dwarves) {
   for ( var i = 0; i < dwarves.length; i++) {
   var position = i + 1;
   var dwarf = dwarves[i];
-  newDwarfArray += `${position}. ${dwarf} `;  
+  newDwarfString += `${position}. ${dwarf} `;  
   }
-return newDwarString;
+return newDwarfString;
   }
 
 function summonCaptainPlanet(planeteerCalls) {
