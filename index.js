@@ -47,8 +47,10 @@ for ( var i = 0; i < foods.length; i++) {
 function wordsWithB(words) {
   var wordsArray = [];
   for ( var i = 0; i < words.length; i++) {
-    if (words[i].startsWith("b"))
-  }
+    if (words[i].startsWith("b")) {
+      
+    }
+  return wordsArray;
 
   
 }
