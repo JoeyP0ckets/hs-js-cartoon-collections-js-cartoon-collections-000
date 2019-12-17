@@ -51,4 +51,6 @@ function wordsWithB(words) {
     wordsArray.push(words[i]);  
     }
 }  
+return wordsArray;
+  
 }
