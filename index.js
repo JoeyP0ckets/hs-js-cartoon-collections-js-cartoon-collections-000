@@ -1,5 +1,5 @@
 function dwarfRollCall(dwarves) {
-  var newDwarfArray = [] ;
+  var newDwarfArray = "" ;
   for ( var i = 0; i < dwarves.length; i++) {
   var position = i + 1;
   var dwarf = dwarves[i];
