@@ -50,7 +50,5 @@ function wordsWithB(words) {
     if (words[i].startsWith("b")) {
     wordsArray.push(words[i]);  
     }
-  return wordsArray;
-
-  
+}  
 }
