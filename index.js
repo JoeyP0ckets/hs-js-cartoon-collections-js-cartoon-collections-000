@@ -41,6 +41,5 @@ for ( var i = 0; i < foods.length; i++) {
     return foods[i];
   } 
   }
-ff
     return "no cheese!";
 }
