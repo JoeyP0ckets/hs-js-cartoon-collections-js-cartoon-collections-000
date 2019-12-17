@@ -48,7 +48,7 @@ function wordsWithB(words) {
   var wordsArray = [];
   for ( var i = 0; i < words.length; i++) {
     if (words[i].startsWith("b")) {
-      
+    wordsArray.push(words[i]);  
     }
   return wordsArray;
 
